@@ -1,0 +1,29 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.hamburger-btn {  
+    padding: 5px;    
+}
+
+h3 {
+    color:white;
+}
