@@ -15,15 +15,6 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-button {
-    border: none;
-    background-color: transparent;
-}
-
-.hamburger-btn {  
-    padding: 5px;    
-}
-
 h3 {
     color:white;
 }
