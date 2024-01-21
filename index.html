@@ -11,72 +11,78 @@
   <title>Frontend Mentor | Loopstudios landing page</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <img src="images/logo.svg"/>
-      <button aria-label="Open navigation menu" aria-expanded="false">
-        <img src="images/icon-hamburger.svg" alt="" class="hamburger-btn"/>
-      </button>
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Support</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="hero">
 
-  <h1>Immersive experiences that deliver</h1>
+    <header>
+      <nav id="nav-el">
+        <img src="images/logo.svg"/>
+        <button aria-label="Open navigation menu" aria-expanded="false" class="nav-btn" id="nav-btn">
+          <img src="images/icon-hamburger.svg" alt="" class="hamburger-btn"/>
+        </button>
+        <ul class="header-nav">
+          <li><a href="#" class="nav-item">About</a></li>
+          <li><a href="#" class="nav-item">Careers</a></li>
+          <li><a href="#" class="nav-item">Events</a></li>
+          <li><a href="#" class="nav-item">Products</a></li>
+          <li><a href="#" class="nav-item">Support</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <h2>The leader in interactive VR</h2>
+    <h1>Immersive experiences that deliver</h1>
 
-  <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.</p>
+  </div>
+  <section>
+    <img src="images/mobile/image-interactive.jpg" alt="man wearing VR headset" class="interactive-img"/>
+    <h2>The leader in interactive VR</h2>
+    <p>Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+  </section>
 
+  <section>
   <h2>Our creations</h2>
-
-  <a href="#">See all</a>
-  <div class="creation">
+    <div class="creation">
     <!-- <picture>
       <source media="(max-width: 599px)" srcset="images/mobile/image-deep-earth.jpg" />
       <source media="(min-width: 600px)" srcset="images/desktop/image-deep-earth.jpg" />
       <img src="images/mobile/image-deep-earth.jpg" alt="" class="creation-img" />
     </picture>     -->
-    <img src="images/mobile/image-deep-earth.jpg" alt="" class="creation-img"/>
-    <h3 class="creation-title">Deep earth</h3> 
-  </div>
-  <div class="creation">
-    <img src="images/mobile/image-night-arcade.jpg" alt="" class="creation-img"/>
-    <h3 class="creation-title">Night arcade</h3>
-  </div>
-  <div class="creation">
-    <img src="images/mobile/image-soccer-team.jpg" alt="" class="creation-img"/>
-    <h3 class="creation-title">Soccer team VR</h3>
-  </div>
-  <div class="creation">
-    <img src="images/mobile/image-grid.jpg" alt="" class="creation-img"/>
-    <h3 class="creation-title">The grid</h3>
-  </div>
-  <div class="creation">
-    <img src="images/mobile/image-from-above.jpg" alt="" class="creation-img"/>
-    <h3 class="creation-title">From up above VR</h3>
-  </div>
-  <div class="creation">
-    <img src="images/mobile/image-pocket-borealis.jpg" alt="" class="creation-img"/>
-    <h3 class="creation-title">Pocket borealise</h3>
-  </div>
-  <div class="creation">
-    <img src="images/mobile/image-curiosity.jpg" alt="" class="creation-img"/>
-    <h3 class="creation-title">The curiosity</h3>
-  </div>
-  <div class="creation">
-    <img src="images/mobile/image-fisheye.jpg" alt="" class="creation-img"/>
-    <h3 class="creation-title">Make it fisheye</h3>
-  </div>
+      <img src="images/mobile/image-deep-earth.jpg" alt="" class="creation-img"/>
+      <h3 class="creation-title one">Deep earth</h3> 
+    </div>
+    <div class="creation">
+      <img src="images/mobile/image-night-arcade.jpg" alt="" class="creation-img"/>
+      <h3 class="creation-title two">Night arcade</h3>
+    </div>
+    <div class="creation">
+      <img src="images/mobile/image-soccer-team.jpg" alt="" class="creation-img"/>
+      <h3 class="creation-title three">Soccer team VR</h3>
+    </div>
+    <div class="creation">
+      <img src="images/mobile/image-grid.jpg" alt="" class="creation-img"/>
+      <h3 class="creation-title four">The grid</h3>
+    </div>
+    <div class="creation">
+      <img src="images/mobile/image-from-above.jpg" alt="" class="creation-img"/>
+      <h3 class="creation-title five">From up above VR</h3>
+    </div>
+    <div class="creation">
+      <img src="images/mobile/image-pocket-borealis.jpg" alt="" class="creation-img"/>
+      <h3 class="creation-title six">Pocket borealise</h3>
+    </div>
+    <div class="creation">
+      <img src="images/mobile/image-curiosity.jpg" alt="" class="creation-img"/>
+      <h3 class="creation-title seven">The curiosity</h3>
+    </div>
+    <div class="creation">
+      <img src="images/mobile/image-fisheye.jpg" alt="" class="creation-img"/>
+      <h3 class="creation-title eight">Make it fisheye</h3>
+    </div>
+
+    <a href="#">See all</a>
+  </section>
+
   <footer>
+    <img src="images/logo.svg" alt="Loopstudios logo" class="footer-logo"/>
     <nav>
       <ul>
         <li><a href="#">About</a></li>

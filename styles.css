@@ -2,8 +2,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+}
+
 body {
     background-color: rgb(190, 139, 244);
+    color: white;
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -11,10 +16,50 @@ img {
     max-width: 100%;
 }
 
+.hero {
+    height: 100vh;
+    background-image: url(images/mobile/image-hero.jpg);
+    border: 1px solid yellow;
+}
+
+.nav-btn {
+    position: relative;
+    border: none;
+    background-color: transparent;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > * {
+    margin: 1em;
+}
+ 
+.header-nav {
+    display: none;
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
 h1, h2, h3 {
     text-transform: uppercase;
 }
 
-h3 {
-    color:white;
+.creation {
+    position: relative;
+    border: 1px solid hotpink;
 }
+
+.creation-title {
+    position: absolute;
+    left: 1rem;
+    bottom: 0.5rem;
+    margin-bottom: 0;
+}
+
